@@ -75,9 +75,9 @@ with open(budget_csv_path, newline="") as csvfile:
     #Average change
     print(f'Average Change: ${net_diff/(num_month-1)}')
     #Greatest increase in profit
-    print(f'Greatest Increase in Profits:{date1} ${max_diff}')
+    print(f'Greatest Increase in Profits:{date1} (${max_diff})')
     #Greatest decrease in profit
-    print(f'Greatest Decrease in Profits:{date2} ${min_diff}')
+    print(f'Greatest Decrease in Profits:{date2} (${min_diff})')
 
 
          
